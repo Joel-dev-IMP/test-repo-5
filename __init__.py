@@ -24,7 +24,7 @@ import bpy
 bl_info = {
     "name": "Hello World",
     "author": "Joel Benkwitz (BD)",
-    "version": (1, 0, 0),
+    "version": (1, 1, 0),
     "blender": (2, 83, 0),
     "warning": "",
     "tracker_url": "https://github.com/Joel-dev-IMP/jufo-demo-1/issues/new",
@@ -34,7 +34,7 @@ bl_info = {
 
 
 def register():
-    print("Hello World!")
+    print("Hello World Version 1.1!")
 
 
 def unregister():
